@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="160dp"
+        android:visibility="gone"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ly_topfunc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/tv_Login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/welcomanim_title_login"
+                android:textColor="@color/white"
+                android:drawableBottom="@drawable/ic_triangle"
+                android:textSize="@dimen/text_18"/>
+
+            <TextView
+                android:id="@+id/tv_reg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/welcomanim_title_regin"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_18"/>
+        </LinearLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager_fragment"
+            android:layout_below="@id/ly_topfunc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+    </RelativeLayout>
+</RelativeLayout>

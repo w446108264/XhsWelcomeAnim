@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XhsWelcomeAnim</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcomanim_title_login">登录</string>
+    <string name="welcomanim_title_regin">注册</string>
+    <string name="welcomanim_title_phone">+86</string>
+    <string name="welcomanim_title_psw">密码</string>
+    <string name="welcomanim_title_forgetpsw">忘记密码?</string>
+    <string name="welcomanim_title_psw_hint">请输入用户密码</string>
+    <string name="welcomanim_title_social">使用社交账号快速登录</string>
+    <string name="welcomanim_title_social_weibo">微博登录</string>
+    <string name="welcomanim_title_social_wechat">微信登录</string>
+    <string name="welcomanim_title_social_qq">QQ登录</string>
+    <string name="welcomanim_title_share">分享到社区</string>
+    <string name="welcomanim_title_policy">隐私政策</string>
+    <string name="welcomanim_down">下载原版小红书</string>
+
+
+    <string name="input_phone">请输入你的手机号码</string>
+    <string name="reg_select_country">请选择国家地区</string>
+    <string name="reg_write_identify_code">请输入短信验证码</string>
+    <string name="smssdk_write_mobile_phone">请填写手机号码</string>
+    <string name="reg_send_ver">发送</string>
+    <string name="reg_next">验证并登录</string>
+</resources>

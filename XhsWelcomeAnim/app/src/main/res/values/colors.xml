@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#ACACAC</color>
+    <color name="base_gray">#363636</color>
+    <color name="base_gray_green">#56d292</color>
+    <color name="base_black_gray">#636363</color>
+
+    <color name="chb_text_color">#ff909090</color>
+    <color name="tab_message">#67da9f</color>
+</resources>

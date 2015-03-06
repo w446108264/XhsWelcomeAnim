@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.xingin.xhs.activity.WelcomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <xhs.com.view.ChildViewPager
+            android:id="@+id/vp_imageanim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shape_round_red"/>
+
+        <xhs.com.view.ChildViewPager
+            android:id="@+id/vp_textanim"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_above="@+id/rl_indicator"
+            android:background="#FFF"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/shape_round_bottom_white"
+            android:orientation="vertical">
+
+            <xhs.com.view.WelcomeIndicator
+                android:id="@+id/view_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#FFF"
+                android:orientation="vertical">
+            </xhs.com.view.WelcomeIndicator>
+
+            <TextView
+                android:id="@+id/tv_skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:text="跳过"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:textColor="@color/base_gray_green"
+                android:textSize="@dimen/text_20"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
+
